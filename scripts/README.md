@@ -16,5 +16,5 @@ Default root password: MoeClub.org
 
 ## Reference
 
-- [@MoeClub/Note/InstallNET.sh](https://github.com/MoeClub/Note/blob/831e378278cd4d7fc890213329c4b5234f8b91d8/InstallNET.sh)
+- [@MoeClub/Note/InstallNET.sh](https://github.com/MoeClub/Note/blob/06b6ac12a1434e373495dbe5824b2b933c57c663/InstallNET.sh)
 - [@moeclub.org/LinuxShell/DebianNET.sh](https://moeclub.org/attachment/LinuxShell/DebianNET.sh)

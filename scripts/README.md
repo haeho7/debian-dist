@@ -4,7 +4,7 @@
 
 It can reinstall `Debian`、 `Ubuntu`、`CentOS` system with network.
 
-Default root password: MoeClub.org
+Default root password: `MoeClub.org`
 
 ```sh
 # Debian 10 buster

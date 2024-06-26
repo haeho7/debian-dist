@@ -8,10 +8,10 @@ Default root password: `MoeClub.org`
 
 ```sh
 # Debian 10 buster
-./InstallNET.sh -d buster -v amd64 -p <password> --ip-addr <ip-addr> --ip-gate <ip-gate> --ip-mask <ip-mask>
+./InstallNET.sh -d buster -v amd64 -p <password> --ip-addr <ip-addr> --ip-mask <ip-mask> --ip-gate <ip-gate>
 
 # Debian 11 bullseye
-./InstallNET.sh -d bullseye -v amd64 -p <password> --ip-addr <ip-addr> --ip-gate <ip-gate> --ip-mask <ip-mask>
+./InstallNET.sh -d bullseye -v amd64 -p <password> --ip-addr <ip-addr> --ip-mask <ip-mask> --ip-gate <ip-gate> 
 
 # Debian 12 bookworm
 bash <(wget -qO- "https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh") \
@@ -19,8 +19,8 @@ bash <(wget -qO- "https://raw.githubusercontent.com/MoeClub/Note/master/InstallN
   -v amd64 \
   -p <password> \
   --ip-addr <ip-address> \
-  --ip-gate <ip-gateway> \
   --ip-mask <ip-netmask> \
+  --ip-gate <ip-gateway> \
   --mirror "http://deb.debian.org/debian"
 ```
 
